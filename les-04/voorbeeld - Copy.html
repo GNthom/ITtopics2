@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+</head>
+<body>
+    <h1>Stel uw vraag hier.</h1>
+    <form action="verzenden.php" method="POST">
+        <div><label for="naam">Naam: 
+            <input type="text" id="naam" name="naam" required></label>
+        </div>
+        <div><label for="email">Email: 
+            <input type="email" id="email" name="email" required></label>
+        </div>
+        <div><label for="website">Firma: 
+            <input type="url" id="Firma" name="Firma" ></label>
+        </div>
+        <div><label for="reactie">Reactie: 
+            <textarea rows="5" id="reactie" name="reactie"></textarea></label>
+        </div>
+        <div>
+            <input type="submit" value="Indienen">
+        </div>
+    </form>
+</body>
+
+</html>
