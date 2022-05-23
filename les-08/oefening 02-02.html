@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+    <style>
+
+    .grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header '
+    'aside main'
+    'footer footer';
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+  }
+  
+    .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .header { grid-area: header; }
+        .aside { grid-area: Aside; }
+        .main { grid-area: main; }
+        .footer { grid-area: footer; }
+
+</style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="header">Header</div>
+        <div class="aside">Aside</div>
+        <div class="main">Main</div>  
+        <div class="footer">Footer</div>
+      </div>
+
+
+
+
+</body>

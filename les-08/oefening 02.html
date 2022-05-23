@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+<style>
+#page {
+  display: grid;
+  width: 100%;
+  height: 250px;
+  grid-template-areas: "head head"
+                       "nav  main"
+                       "nav  foot";
+  grid-template-rows: 50px 1fr 30px;
+  grid-template-columns: 150px 1fr;
+}
+
+#page > header {
+  grid-area: header;
+  background-color: #4432ff;
+}
+
+#page > Aside {
+  grid-area: Aside;
+  background-color: #ffa08c;
+}
+
+#page > main {
+  grid-area: main;
+  background-color: #ffff64;
+}
+
+#page > footer {
+  grid-area: foot;
+  background-color: #8cffa0;
+}
+</style>
+
+<section id="page">
+    <header>Header</header>
+    <nav>Aside</nav>
+    <main>Main area</main>
+    <footer>Footer</footer>
+</section>
+
