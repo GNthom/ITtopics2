@@ -1,0 +1,77 @@
+body {
+	background-image: url('../img/3.jpg');
+   }
+
+footer { 
+	 bottom: 0;
+	 width: 100%;
+   }
+
+.p-3 { 
+   background-color: rgba(0, 0, 0, 0.2);
+   }
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+.img-fluid {
+  height: 200px;
+  width: auto;
+  object-fit: contain;
+}
+
+.container {
+  background: rgba(0,0,0,0.7);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255,255,255,0.25)
+
+}
+
+.undercontainer {
+  margin-bottom: 150px;
+
+}
+
+.topcontainer {
+margin-top: 50px;
+}
+
+.card {
+  background: rgba(0,0,0,0.7);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255,255,255,0.25)
+
+}

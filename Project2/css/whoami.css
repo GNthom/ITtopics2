@@ -1,0 +1,55 @@
+body {
+	background-image: url('../img/4.jpg');
+   }
+
+footer { 
+	 bottom: 0;
+	 width: 100%;
+   }
+
+.p-3 { 
+   background-color: rgba(0, 0, 0, 0.2);
+   }
+
+
+.img {
+  max-height: 400px;
+  min-height: 400px;
+  height: 70%;
+  width: auto;
+  color:white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.carouselExampleCaptions {
+   width: 100%;
+}
+
+.dropdown-menu {
+	background: rgba(0,0,0,0.8);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255,255,255,0.25);
+}
+
+.drops {
+   margin-bottom: 600px;
+   margin-top: 50px;
+   margin-left: 50px;
+}
+
+.container {
+   background: rgba(0,0,0,0.5);
+	background-size: cover;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255,255,255,0.25);
+   margin-top : 50px;
+}
+
+h5  span{
+   background: rgb(0, 0, 0);
+   color: #fff;
+   padding: 0 20px;
+ }
